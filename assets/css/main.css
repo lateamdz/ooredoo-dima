@@ -232,7 +232,7 @@ body .video-frame .six-boxes .box:hover {
 	padding: 30px 0
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card {
+#pub-reseau .element-card.col-md-4 .pub-card {
 	border-radius: 0;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -240,13 +240,13 @@ body .video-frame .six-boxes .box:hover {
 	padding: 0
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card .titre {
+#pub-reseau .element-card.col-md-4 .pub-card .titre {
 	font-family: "Rubik-bold";
 	color: #121212;
 	font-size: 2.7em;
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card p {
+#pub-reseau .element-card.col-md-4 .pub-card p {
 	text-align: center;
 	color: #121212;
 	font-size: 1.1em;
@@ -255,12 +255,12 @@ body .video-frame .six-boxes .box:hover {
 
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card .detail-div {
+#pub-reseau .element-card.col-md-4 .pub-card .detail-div {
 	text-align: center;
 	margin-bottom: 6px
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card .detail-div a {
+#pub-reseau .element-card.col-md-4 .pub-card .detail-div a {
 	color: #121212;
 	opacity: 1;
 	font-size: 1.3em;
@@ -268,15 +268,15 @@ body .video-frame .six-boxes .box:hover {
 
 }
 
-#pub-reseau .element-card.col-md-6 .pub-card .detail-div .stores img {
+#pub-reseau .element-card.col-md-4 .pub-card .detail-div .stores img {
 	width: 48%
 }
 
-#pub-reseau .element-card.col-md-6:nth-child(2) .pub-card {
+#pub-reseau .element-card.col-md-4:nth-child(2) .pub-card {
 	background-color: #fff
 }
 
-#pub-reseau .element-card.col-md-6:first-child .pub-card {
+#pub-reseau .element-card.col-md-4:first-child .pub-card {
     background-color: #2ddfcb;
     background-position: bottom left;
 }
@@ -318,7 +318,7 @@ body .video-frame .six-boxes .box:hover {
 }
 
 @media only screen and (min-width:768px) {
-	#pub-reseau .element-card.col-md-6 .pub-card .container {
+	#pub-reseau .element-card.col-md-4 .pub-card .container {
 		min-height: 150px;
 		max-height: 150px
 	}

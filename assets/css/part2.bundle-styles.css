@@ -305,6 +305,11 @@ span.yt-title2 {
     padding-top: 15px;
 	max-width: unset;
 }
+@media screen and (min-width:768px) and (max-width: 1200px) {
+    .image-anazik {
+        height: 230px;
+    }
+}
 
 .myBtn{
     border-radius: 50px !important;
