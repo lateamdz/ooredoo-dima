@@ -1,0 +1,600 @@
+@font-face {
+	font-family: 'Qatar2022-Heavy';
+	src: url(../fonts/FIFA_Qatar2022_WEB/Qatar2022-Heavy.woff);
+}
+
+@font-face {
+	font-family: 'Qatar2022-Thin';
+	src: url(../fonts/FIFA_Qatar2022_WEB/Qatar2022-Thin.woff);
+}
+
+@font-face {
+	font-family: 'Qatar2022-bold';
+	src: url(../fonts/FIFA_Qatar2022_WEB/Qatar2022-Bold.woff);
+}
+
+@font-face {
+	font-family: 'Qatar2022-Heavy-ar';
+	src: url(../fonts/FIFA_Qatar2022_WEB/ar/Qatar2022Arabic-Heavy.woff);
+}
+
+@font-face {
+	font-family: 'Qatar2022-Thin-ar';
+	src: url(../fonts/FIFA_Qatar2022_WEB/ar/Qatar2022Arabic-Thin.woff);
+}
+
+@font-face {
+	font-family: 'Qatar2022-bold-ar';
+	src: url(../fonts/FIFA_Qatar2022_WEB/ar/Qatar2022Arabic-Bold.woff);
+}
+
+.section-content.transfert-hp {
+	width: 100%;
+	background-image: url(../images/wc2022/bg.svg);
+	background-size: cover;
+}
+
+.wc2022 .banner-container {
+	padding-top: 20px;
+}
+
+.wc2022 .container .fac-banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.wc2022 .container .fac-banner .logo img {
+	width: 100vw
+}
+
+.wc2022 .container .fac-banner .aich-fac img {
+	max-height: 100px;
+	width: auto
+}
+
+.wc2022 .assets-container {
+	margin-top: 40px;
+}
+
+#fragment-108-ewgh {
+	width: 93%
+}
+
+
+
+.banner-flag ul li {
+	min-width: 32px;
+	max-width: 110px;
+	max-height: 110px;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner-flag ul li svg {
+	width: 100%;
+	height: 100%;
+	min-width: 32px;
+}
+
+.banner-flag ul.d-flex {
+	display: flex !important;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.team-flag ul li span,
+.team-flag ul .btn-img span,
+.team-flag .btn-shap li span,
+.team-flag .btn-shap .btn-img span {
+	transform: translateY(100%);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.wc2022 .main-fac-container {
+	margin-top: -3px;
+}
+
+.wc2022 .main-fac-container .fac-inner-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 0 30px 0;
+	background-image: url(../images/wc2022/play-kasheeda.svg);
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.wc2022 .main-fac-container {
+	margin-top: -3px;
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-claim {
+	margin: 26px auto;
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-claim h3 {
+	font-size: 2.2em;
+	text-align: center;
+	line-height: 1.4em;
+	font-family: 'Qatar2022-Heavy';
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-conditions {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin-top: 15px
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-conditions h5 {
+	text-align: center;
+	font-size: 1.3em;
+	margin: auto 0%;
+	color: #FFF;
+	font-family: Qatar2022-Thin;
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-conditions a {
+	text-decoration: underline;
+	color: #4fc1b2
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-conditions .condition-check {
+
+	position: relative;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+fieldset {
+	display: block;
+	margin-top: 10px
+}
+
+.fac-conditions label {
+	font-family: 'Qatar2022-bold';
+	font-size: 1.6rem;
+	cursor: pointer;
+	display: block;
+	margin: 1.2em;
+}
+
+label > input {
+	display: none;
+}
+
+label span {
+	color: #eee;
+}
+
+label i {
+	display: inline-block;
+	width: 64px;
+	height: 40px;
+	border-radius: 20px;
+	vertical-align: middle;
+	transition: 0.25s 0.09s;
+	position: relative;
+	background: #deeff7;
+	margin-right: 15px;
+}
+
+label i:after {
+	content: " ";
+	display: block;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	left: 5px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.4);
+	transition: 0.15s;
+}
+
+label > input:checked + i {
+	background: #ed1450;
+}
+
+label > input:checked + i + span {
+	color: #ed1450;
+}
+
+label > input:checked + i:after {
+	transform: translateX(25px);
+}
+
+.fac-cta button {
+	background-color: #ffffff !important;
+	font-family: inherit;
+	font-weight: bolder;
+	text-transform: unset;
+	border-radius: 50px;
+	padding: 16px 70px;
+	color: #ed1450;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+	background-color: #f8001f !important;
+	border-color: #e4012f !important;
+	outline-color: #e4012f !important
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:focus-visible {
+	background-color: #ff6666;
+	border-color: #ff6666;
+	outline-color: #ff6666 !important;
+	color: #ee1150;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background-color: #cc9999 !important;
+	background-image: none;
+}
+
+.wc2022 .container.footer-fac .footer-fac-row {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
+	justify-content: space-between;
+
+}
+
+.wc2022 .container.footer-fac .footer-fac-row .img-right {
+	margin-top: -70px;
+}
+
+.wc2022 .container.footer-fac .footer-fac-row .img-right img {
+	max-height: 100px;
+}
+
+.footer-fac-row .logo {
+	width: 75%;
+	float: right;
+}
+
+.footer-fac-row .pattern {
+	width: 80%;
+	margin-top: -90px
+}
+
+.wc2022 .main-fac-container .fac-inner-container .fac-claim h3 sup {
+	font-size: 0.3em;
+	vertical-align: text-top;
+	font-family: 'Qatar2022-Heavy' !important;
+
+}
+.wc22.link{
+	    color: #4fc1b2;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-size: 1.1em;
+} 
+.wc22-btn-blc{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+/******************     BANNER PAGE      ************************/
+
+.parent .wc22.md-recharge-internet.roaming .section-content {
+	background-image: url(../img/wc2022/banner-kasheeda.svg), url(../img/wc2022/bg.svg);
+	background-size: contain, cover;
+	background-position: bottom right, top left;
+	background-repeat: no-repeat, no-repeat;
+	padding-bottom: 100px;
+	padding-top: 70px;
+}
+
+.f-heavy-wc2022 {
+	font-family: 'Qatar2022-Heavy';
+	text-align: center;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.ar.getty .wc22 .f-heavy-wc2022 {
+	font-family: 'Qatar2022-Heavy' !important;
+
+}
+
+.f-thin-wc2022 {
+	font-family: 'Qatar2022-thin';
+	text-align: center;
+	color: white;
+	margin-bottom: 35px;
+	padding: 0 3%;
+	line-height: 1.5em;
+}
+
+.wc22 .btn-custom {
+	padding: 15px 50px;
+	font-size: 1.2em;
+	border-radius: 40px;
+	background: white;
+	color: #ed1450;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.container.banner-container {}
+
+	.wc2022 .container .fac-banner {}
+
+	.wc2022 .banner-container {
+		padding: 20px 0;
+	}
+
+
+	.wc2022 .container .fac-banner .logo img {}
+
+	.wc2022 .banner-container .fac-banner div:nth-child(3) {
+		overflow: hidden;
+		max-width: 20%;
+	}
+
+	.wc2022 .banner-container .fac-banner div:nth-child(3) img {
+		max-width: unset;
+		max-height: 90px;
+	}
+
+	.wc2022 .assets-container {
+		margin-top: 20px;
+		padding: 0
+	}
+
+	.banner-flag ul:nth-child(n+10) {
+		display: none
+	}
+
+	#fragment-108-ewgh {
+		overflow: hidden
+	}
+
+	.banner-flag ul li {
+		max-height: 36px
+	}
+
+	.wc2022 .main-fac-container {
+		margin-top: -2px;
+		padding: 10px
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container .fac-claim h3 {
+		font-size: 1.4em;
+		margin: 20px 10px;
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container .fac-conditions h5 {
+		font-size: 1.2em;
+		margin: auto 1%;
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container .fac-conditions div:nth-child(2) {
+		width: 100%
+	}
+
+	.fac-conditions label {
+		font-size: 1.3rem;
+		margin: 1.2em 0.5em 1.2em 0.6em;
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container {
+		padding: 8px 0 40px 0;
+	}
+
+	.container.footer-fac {
+		padding: 0
+	}
+
+	.container.footer-fac .footer-fac-row div:nth-child(1) {
+		margin-right: 15px;
+	}
+
+	.wc2022 .container.footer-fac .footer-fac-row {
+		padding: 29px 11px 40px 20px;
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container .fac-conditions fieldset label {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container .fac-conditions fieldset label i {
+		margin-right: 10px
+	}
+
+	.wc2022 .fragment-108-ewgh .banner-flag {
+		overflow: hidden
+	}
+
+	.wc2022 .main-fac-container .fac-inner-container {
+		background-image: url(../images/wc2022/play-kasheeda-mobile.svg);
+	}
+
+	.footer-fac-row .pattern {
+		width: 100%;
+		margin-top: -30px;
+	}
+
+	.footer-fac-row .logo {
+		width: 94%;
+	}
+
+	.parent .wc22.md-recharge-internet.roaming .section-content {
+		background-image: url(../img/wc2022/play-kasheeda-mobile.svg), url(../img/wc2022/bg.svg);
+		background-size: contain, cover;
+		background-position: top right, top left;
+		background-repeat: no-repeat, no-repeat;
+		padding-bottom: 70px;
+		padding-top: 40px;
+	}
+	.wc22-btn-blc{
+    flex-direction: column;
+}
+	.wc22.link {
+		margin-top: 15px
+    
+}
+}
+
+
+/*********************************************************/
+/*************          VERSION AR          **************/
+/*********************************************************/
+
+.ar .wc2022 .main-fac-container .fac-inner-container .fac-claim h3 {
+	font-family: 'Qatar2022-Heavy-ar';
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	padding: 0 12px;
+	justify-content: center;
+}
+
+.ar .wc2022 .main-fac-container .fac-inner-container .fac-claim h3 .french {
+	font-family: 'Qatar2022-Heavy' !important;
+}
+
+.ar .fac-conditions label {
+	font-family: 'Qatar2022-Bold-ar' !important;
+}
+
+.ar label > input:checked + i + span span {
+	color: #ed1c24
+}
+
+.ar .wc2022 .container.footer-fac .footer-fac-row {
+	padding: 15px 30px 20px 11px;
+}
+
+.ar .wc2022 .main-fac-container .fac-inner-container {
+	background-image: url(../images/wc2022/play-kasheeda-ar.svg);
+}
+
+.ar label i {
+	margin-left: 15px;
+	margin-right: 0
+}
+
+.ar .wc2022 .main-fac-container .fac-inner-container .fac-conditions h5 {
+	font-family: 'Qatar2022-Thin-ar';
+}
+
+.ar .wc2022 .price-unit {
+	font-family: 'Qatar2022-Bold-ar' !important;
+}
+
+.ar .wc22 .fifa-cup-content h1 {
+	font-family: 'Qatar2022-Heavy-ar';
+	padding: 0 12px;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 1.4em
+}
+
+.ar .wc22 .fifa-cup-content h1 span {
+	margin-left: 7px
+}
+
+.ar .wc22 .fifa-cup-content h1 sup {
+	font-family: 'Qatar2022-Bold';
+	font-size: 0.4em;
+	vertical-align: revert;
+}
+
+.ar .f-thin-wc2022 {
+	font-family: 'Qatar2022-thin-ar';
+	text-align: center;
+	color: white;
+	margin-bottom: 35px;
+	padding: 0 3%;
+}
+
+.ar .f-thin-wc2022 span {
+	margin-left: 5px
+}
+
+.ar .fifa-cup-content h4 {
+	line-height: 1.5em
+}
+
+.ar #page .wc22.md-recharge-internet.roaming .section-content {
+	background-image: url(../images/wc2022/play-kasheeda-banner-ar.svg), url(../images/wc2022/bg.svg);
+	background-size: contain, cover;
+	background-position: bottom right, top left;
+	background-repeat: no-repeat, no-repeat;
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.ar .wc2022 .main-fac-container .fac-inner-container .fac-conditions fieldset label i {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.ar .container.footer-fac .footer-fac-row div:nth-child(1) {
+		margin-left: 15px;
+		margin-right: 0;
+	}
+
+	.ar .wc2022 .main-fac-container .fac-inner-container {
+		background-image: url(../images/wc2022/play-kasheeda-mobile-ar.svg);
+	}
+
+	.ar #page .wc22.md-recharge-internet.roaming .section-content {
+		background-image: url(../images/wc2022/play-kasheeda-mobile-ar.svg), url(../images/wc2022/bg.svg);
+		background-size: contain, cover;
+		background-position: 0px 5px, top left;
+		background-repeat: no-repeat, no-repeat;
+		padding-bottom: 70px;
+		padding-top: 40px;
+	}
+
+	.ar .wc22 .fifa-cup-content h1 {
+		font-size: 27px;
+	}
+
+}

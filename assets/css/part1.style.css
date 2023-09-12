@@ -1,0 +1,146 @@
+.video-player {
+	margin: 0 auto;
+	display: block;
+	width: 100%
+}
+
+.bottom-video-border {
+	width: 100%;
+	height: 15px;
+	background-color: #000
+}
+
+.part1_thumbnail-container {
+	text-align: center
+}
+
+.part1_desktop-view {
+	position: absolute;
+	bottom: 6%;
+	right: 0;
+	display: none
+}
+
+.part1_mobile-view {
+	position: absolute;
+	top: 25px;
+	left: 240px;
+	display: none
+}
+
+.thumbnail {
+	height: 165px;
+	margin: 0 16px 21px 0;
+	cursor: pointer
+}
+
+.thumbnails-logo {
+	width: 100px;
+	margin-bottom: 10px
+}
+
+.part1_services-container {
+	text-align: center
+}
+
+.part1_service {
+	border: 0 !important
+}
+
+.card-title {
+	margin-top: 15px
+}
+
+@media (min-width:330px) and (max-width:600px) {
+	.part1_desktop-view {
+		display: none;
+		right: 5%
+	}
+
+	.thumbnail {
+		height: 40px;
+		margin: 0 20px 20px 0;
+		cursor: pointer
+	}
+
+	.part1_services-content {
+		display: block;
+		text-align: center
+	}
+}
+
+@media (min-width:100px) and (max-width:330px) {
+	.part1_desktop-view {
+		display: none
+	}
+
+	.thumbnail {
+		height: 40px;
+		margin: 0 20px 20px 0;
+		cursor: pointer
+	}
+
+	.part1_mobile-view {
+		position: absolute;
+		top: 20px;
+		left: 200px;
+		display: none
+	}
+
+	.part1_services-content {
+		display: block;
+		text-align: center
+	}
+}
+
+@media (min-width:600px) and (max-width:1023px) {
+	.part1_desktop-view {
+		display: none
+	}
+
+	.thumbnail {
+		height: 40px;
+		margin: 0 20px 20px 0;
+		cursor: pointer
+	}
+
+	.part1_mobile-view {
+		position: absolute;
+		top: 25px;
+		left: 400px;
+		display: none
+	}
+
+	.part1_services-content {
+		text-align: center
+	}
+}
+
+@media (min-width:1023px) and (max-width:1200px) {
+	.part1_desktop-view {
+		position: absolute;
+		bottom: 2%;
+		right: 5%
+	}
+}
+
+@media (max-width:700px) {
+	body {
+		overflow-x: hidden !important
+	}
+
+	.thumbnails-logo {
+		width: 60px;
+		margin-bottom: 10px;
+		margin-right: 20px
+	}
+}
+
+@media (min-width:767px) {
+	#section-two .card-body img{
+		width: 100px
+	}
+
+}
+
+// Extra large devices (largedesktops,1200pxandup) @media (max-width:1200px){margin:0 13px 18px 0}

@@ -1,0 +1,121 @@
+.top-bar-promo {
+	background-color: #FFD100;
+    padding: 4px;
+	font-size: 1em;
+    font-family: "Rubik-bold";
+	color : #000
+}
+.col-auto.promo {
+	font-size: 1em;
+}
+.col-ram.promo {
+	font-size: 1em;
+}
+.top-bar-promo .row.justify-content-md-center{
+    align-items: center;
+    justify-content: center;
+}
+.top-bar-promo .row.justify-content-md-center a{
+	font-size : 1em;
+
+}
+.box-amounts p.dima-bonus {
+    background: #FFD100;
+    margin: auto 3%;
+    border-radius: 6px;
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    padding: 3px 0px;
+}
+.box-amounts span.plus {
+    display: inline-block;
+    font-weight: bold;
+    background: #ee1c24;
+    color: rgb(255 255 255);
+    padding: 0px;
+    border-radius: 20px;
+    width: 16px;
+    height: 16px;
+    line-height: 15px;
+    margin-right: 10px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Rubik-bold';
+}
+.box-amounts p.dima-bonus-2 {
+border: 2px solid #FFD100 !important;
+    margin: 4% 0%;
+    border-radius: 5px;
+    padding: 4px 5px;
+    box-shadow: 6px 6px 0px -3px #e6e8ed75;
+    background: #fbfbfc;	
+}
+.carousel-inner.v-2 .col-12.col-md-4 .card  {
+    background: #fff;
+    border-radius: 7px;
+	
+}
+.box-shadow-large {
+    -webkit-box-shadow: 12px 12px 45px rgba(0,0,0,.13);
+    -moz-box-shadow: 12px 12px 45px rgba(0,0,0,.13);
+    -ms-box-shadow: 0px 2px 26px -8px rgba(0,0,0,.13);
+    -o-box-shadow: 0px 2px 26px -8px rgba(0,0,0,.13);
+    box-shadow: 0px 2px 26px -8px rgb(0 0 0 / 13%);
+}
+
+.top-bar-promo .promo-btn {
+    border-radius: 30px;
+    box-shadow: none;
+    color: white;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+
+.aster.promo-mention{
+	color : #515151;
+}
+h2.promo-h2{
+	font-size:2.3em;
+}
+.pub-card{
+	padding: 0;
+	padding-top : 10px
+}
+.hero-bkg-animated {
+      background: gray url(../img/section-promo/section-2-ram.jpg) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+	min-height : 450px
+	
+}
+
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+#promo-section{
+	background : #fbfbfd;
+	padding-top : 40px
+}
+.choof-link{
+	color : #ed1c24;
+	text-decoration : underline;
+}
+
+@media (max-width:766px){
+	.col-ram.promo {
+	font-size: 1em;
+}
+.top-bar-promo .row.justify-content-md-center a {
+    font-size: .8em;
+	padding : 8px 12px
+}
+.hero-bkg-animated {
+
+	min-height : 75vw
+	
+}
+}
