@@ -34,12 +34,16 @@
 
  		}
  	});
+
  	$(".nav-link.mensuel").click(function () {
- 		return $("#carousel-journalier").removeClass("fadeIn"), $("#carousel-mensuel").addClass("fadeIn"), $(".nav-link.journalier").removeClass("active"), $(".nav-link.mensuel").addClass("active"), !1;
+ 		return $("#carousel-journalier").removeClass("fadeIn"),$("#carousel-engagement").removeClass("fadeIn"), $("#carousel-mensuel").addClass("fadeIn"), $(".nav-link.journalier").removeClass("active"),$(".nav-link.engagement").removeClass("active"), $(".nav-link.mensuel").addClass("active"), !1;
  	});
  	$(".nav-link.journalier").click(function () {
- 		return $("#carousel-journalier").addClass("fadeIn"), $("#carousel-mensuel").removeClass("fadeIn"), $(".nav-link.mensuel").removeClass("active"), $(".nav-link.journalier").addClass("active"), !1;
+		return $("#carousel-mensuel").removeClass("fadeIn"),$("#carousel-engagement").removeClass("fadeIn"), $("#carousel-journalier").addClass("fadeIn"), $(".nav-link.mensuel").removeClass("active"),$(".nav-link.engagement").removeClass("active"), $(".nav-link.journalier").addClass("active"), !1;
  	});
+	 $(".nav-link.engagement").click(function () {
+		 return $("#carousel-journalier").removeClass("fadeIn"), $("#carousel-mensuel").removeClass("fadeIn"),$("#carousel-engagement").addClass("fadeIn"), $(".nav-link.mensuel").removeClass("active"), $(".nav-link.journalier").removeClass("active"), $(".nav-link.engagement").addClass("active"), !1;
+	 });
 
 
  	// Set video mute/unmute toggle
